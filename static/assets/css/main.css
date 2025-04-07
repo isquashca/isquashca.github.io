@@ -34,12 +34,27 @@ ol, ul {
 }
 
 blockquote, q {
-  quotes: none;
+  position: relative;
+  background: #d5e6f1;
+  border-radius: 0.375em;
+  margin: 0 auto;
+  quotes: "❝" "❞";
 }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
+  blockquote:before, q:before {
+    position: absolute;
+    content: open-quote;
+    font-size: 4em;
+    margin-left: -0.8em;
+    margin-top: -0.8em;
   }
+  blockquote p, q p {
+    display: block;
+    text-align: left;
+  }
+
+cite {
+  font-weight: 600;
+}
 
 table {
   border-collapse: collapse;
@@ -140,8 +155,8 @@ a {
   text-decoration: none;
 }
   a:hover {
-    border-bottom-color: #2b9bbe;
-    color: #2b9bbe !important;
+    border-bottom-color: #1e7898;
+    color: #1e7898 !important;
   }
     a:hover strong {
       color: inherit;
@@ -233,7 +248,6 @@ sup {
 }
 
 blockquote {
-  border-left: solid 3px rgba(210, 215, 217, 0.75);
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
@@ -1409,7 +1423,7 @@ header p {
 }
 
 header.major > :last-child {
-  /* border-bottom: solid 3px #2b9bbe; */
+  /* border-bottom: solid 3px #1e7898; */
   display: inline-block;
   /* margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; */
@@ -1478,8 +1492,8 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #2b9bbe;
-    box-shadow: 0 0 0 1px #2b9bbe;
+    border-color: #1e7898;
+    box-shadow: 0 0 0 1px #1e7898;
   }
 
 select {
@@ -1579,8 +1593,8 @@ input[type="radio"] {
   }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #2b9bbe;
-    box-shadow: 0 0 0 1px #2b9bbe;
+    border-color: #1e7898;
+    box-shadow: 0 0 0 1px #1e7898;
   }
 
 input[type="checkbox"] + label:before {
@@ -1870,7 +1884,7 @@ ul.contact {
       font-weight: 400;
     }
     ul.contact li:before {
-      color: #2b9bbe;
+      color: #1e7898;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1922,7 +1936,7 @@ ul.pagination {
       text-align: center;
     }
       ul.pagination li > .page.active {
-        background-color: #2b9bbe;
+        background-color: #1e7898;
         color: #ffffff !important;
       }
         ul.pagination li > .page.active:hover {
@@ -2083,7 +2097,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #2b9bbe;
+    background-color: #1e7898;
     box-shadow: none;
     color: #ffffff !important;
   }
@@ -2186,7 +2200,7 @@ button,
       width: 10em;
     }
       .features article .icon:before {
-        color: #2b9bbe;
+        color: #1e7898;
         font-size: 2.75rem;
         position: relative;
         top: 0.05em;
@@ -2720,7 +2734,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #2b9bbe;
+  border-bottom: solid 5px #1e7898;
   padding: 6em 0 1em 0;
   position: relative;
 }
@@ -2907,7 +2921,7 @@ button,
     padding: 0.625em 0;
   }
     #menu ul a:hover, #menu ul span:hover {
-      color: #2b9bbe;
+      color: #1e7898;
     }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
@@ -2941,7 +2955,7 @@ button,
         right: 0;
       }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #2b9bbe;
+        color: #1e7898;
       }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block;

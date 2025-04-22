@@ -2926,6 +2926,13 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0;
   }
+    #menu ul span.no-link {
+      cursor: text;
+    }
+    #menu ul span.no-link:hover {
+      color: #424c53;
+      cursor: text;
+    }
     #menu ul a:hover, #menu ul span:hover {
       color: #1e7898;
     }

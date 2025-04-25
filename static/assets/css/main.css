@@ -2801,7 +2801,7 @@ button,
     align-items: center;
   }
 .banner-text {
-    font-size: 10em;
+    font-size: 9em;
 }
 
 /* Banner */
@@ -3016,4 +3016,8 @@ button,
   a.no-underline {
     border-bottom: none;
     text-decoration: none;
+  }
+  .text-1-1 {
+    font-size: 1.1em;
+    font-weight: 700;
   }

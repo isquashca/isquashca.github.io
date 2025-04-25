@@ -78,6 +78,6 @@ play and much much more!
         <h2>Why Join?</h2>
         <p>We offer the <strong>most competitively priced squash program in Ottawa</strong>,
         led by certified coaches and built on community, growth, and fun.</p>
-        <p>📩 <em>Contact Coach Ibrahim directly at 613-720-6916</em></p>
+        <p>📩 <em>Contact Coach Ibrahim directly at <a href="tel:6137206916" class="no-underline"><span class="icon solid fa-phone-alt"></span>&nbsp;&nbsp;</a><a href="tel:6137206916">613-720-6916</a></em></p>
     </div>
 </section>

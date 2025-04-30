@@ -94,6 +94,16 @@ body {
 @media screen and (max-width: 480px) {
   html, body {
     min-width: 320px;
+      /* Center align images */
+    .image.object {
+        text-align: center;
+    }
+
+    /* Limit max-width of images */
+    .image.object img,
+    .image.fit img {
+        max-width: 75%; /* Adjust as needed */
+    }
   }
 }
 

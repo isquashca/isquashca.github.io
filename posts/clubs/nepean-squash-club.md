@@ -12,7 +12,7 @@ date: 2025-04-23 02:20:09
     <div class="content">
         <div class="row gtr-50 gtr-uniform">
             <div class="col-6 col-12-medium">
-                <p><a href="https://ottawasquash.ca" target="_blank" rel="nofollow">Website</a></p>
+                <p><a href="https://ottawasquash.ca/" target="_blank" rel="nofollow">Website</a></p>
                 <p><a href="https://chat.whatsapp.com/F02pXG6UFbk7FiFLwlSmUM" target="_blank" rel="nofollow">WhatsApp</a></p>
                 <p>Home of one of the city's most active squash leagues, Nepean
                 features a thriving <strong>City League</strong>, regular social events, and tournaments - made possible under the leadership of
